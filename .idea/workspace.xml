@@ -29,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
               <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="config-sample.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-sample.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -99,6 +108,7 @@
         <option value="$PROJECT_DIR$/app/Controllers/CartController.php" />
         <option value="$PROJECT_DIR$/routes.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/config-sample.php" />
       </list>
     </option>
   </component>
@@ -176,16 +186,17 @@
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\ClotheShop\assets\js" />
-      <recent name="C:\xampp\htdocs\ClotheShop\assets\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\ClotheShop\view\Admin" />
       <recent name="C:\xampp\htdocs\ClotheShop\app\Controllers" />
       <recent name="C:\xampp\htdocs\ClotheShop\app" />
       <recent name="C:\xampp\htdocs\ClotheShop\src" />
       <recent name="C:\xampp\htdocs\ClotheShop" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\ClotheShop" />
+      <recent name="C:\xampp\htdocs\ClotheShop\assets\js" />
+      <recent name="C:\xampp\htdocs\ClotheShop\assets\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -220,12 +231,12 @@
       <workItem from="1525082452643" duration="36925000" />
       <workItem from="1525247366617" duration="1740000" />
       <workItem from="1525343189561" duration="2568000" />
-      <workItem from="1525373617417" duration="1191000" />
+      <workItem from="1525373617417" duration="1567000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103084000" />
+    <option name="totallyTimeSpent" value="103460000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -265,13 +276,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
@@ -595,6 +599,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23">
           <caret line="1" column="6" lean-forward="true" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-sample.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="3" lean-forward="true" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
         </state>
       </provider>
     </entry>
