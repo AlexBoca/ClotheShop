@@ -25,6 +25,7 @@ class AuthController {
 		$password = $conn->real_escape_string($_POST['password']);
 
 		$user = $this->repository->insert(compact('name', 'email', 'phone', 'password'));
+
 		$_SESSION['user'] = $user;
 
 		redirect(url('/'));
@@ -63,6 +64,7 @@ class AuthController {
 		}
 		redirect(url('/'));
 	}
+
 
 
 }

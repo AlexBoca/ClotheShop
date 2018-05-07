@@ -4,6 +4,10 @@ function dd($var) {
 	die();
 }
 
+function assetsPath($file_path) {
+	return BASE_URL . '/assets/' . $file_path;
+}
+
 function view($file, $params = []) {
 	extract($params);
 	$file_path = str_replace('.', '/', $file);
@@ -11,11 +15,11 @@ function view($file, $params = []) {
 }
 
 function url($location, $params = []) {
-	$url = BASE_URL  . str_replace('//', '/', '/' . $location);
-	if (!empty($params)){
-		$url .= '?'. http_build_query($params);
+	$url = BASE_URL . str_replace('//', '/', '/' . $location);
+	if (!empty($params)) {
+		$url .= '?' . http_build_query($params);
 	}
-	return  $url;
+	return $url;
 }
 
 function redirect($location) {

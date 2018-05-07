@@ -19,11 +19,6 @@ $route = new \App\Route();
 include 'routes.php';
 
 
-/*
- * Obtinem controlerul pe baza requestului
- *
- * */
-
 $request_url = str_replace('/' . SITE_NAME, '', $_SERVER['REQUEST_URI']);
 if (strpos($request_url, '?') !== false) {
 	$request_url = explode('?', $request_url)[0];

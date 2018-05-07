@@ -10,6 +10,7 @@ $route->add('/login', \App\Controllers\AuthController::class, 'login');
 $route->add('/logout', \App\Controllers\AuthController::class, 'logout');
 $route->add('/register', \App\Controllers\AuthController::class, 'register');
 
+
 if (isset($_SESSION['user']) && $_SESSION['user']->is_admin) {
 	$route->add('/admin/products', \App\Controllers\ProductController::class, 'index');
 	$route->add('/admin/product/create', \App\Controllers\ProductController::class, 'create');
